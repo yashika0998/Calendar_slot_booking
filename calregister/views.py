@@ -7,3 +7,6 @@ def home(request):
 
 def about(request):
     return render(request, 'calregister/about.html', {'title': 'About'})
+
+def bookAppointment(request):
+    return render(request, 'calregister/book.html', {'title': 'Book Appointment'})

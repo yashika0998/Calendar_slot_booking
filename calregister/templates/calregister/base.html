@@ -12,6 +12,7 @@
 
     <link rel="stylesheet" type="text/css" href="{% static 'calregister/main.css' %}">
 
+
     {% if title %}
         <title>Calendar App - {{ title }}</title>
     {% else %}
@@ -30,6 +31,8 @@
             <div class="navbar-nav mr-auto">
               <a class="nav-item nav-link" href="{% url 'calregister-home' %}">Home</a>
               <a class="nav-item nav-link" href="{% url 'calregister-about' %}">About</a>
+              <a class="nav-item nav-link" href="{% url 'calregister-bookAppointment'%}">Book Appointment</a>
+
             </div>
             <!-- Navbar Right Side -->
             <div class="navbar-nav">
