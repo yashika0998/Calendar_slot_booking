@@ -59,5 +59,6 @@ For the rest of the backend work Django doesn't help with, you just use regular 
 
 + Once done mark it with done or delete it.
 
+*see `functioning.md` to run on your local desktop*
 
-
+*checkout web_page designed screenshots in folder `web_screenshot`.*
