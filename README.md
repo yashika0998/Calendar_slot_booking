@@ -40,10 +40,6 @@ For the rest of the backend work Django doesn't help with, you just use regular 
 
 + A slide bar option at right to post your important events, announcement if any.
 
-# Images of developed web page :
-
-+ ![alt text](C:\Users\Yashika\Desktop\sceenshots)
-
 
 # Features to be added
 
