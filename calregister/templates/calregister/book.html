@@ -1,83 +1,173 @@
-{% extends "calregister/base.html" %}
-{% block content %}
-   <h1> Welcome here to schedule your appointment!</h1>
-   <div class = "container" >
-          <div class = "calendar-container" >
+<html>
 
-            <header>
-              <div class = "date" >21</div>
-              <div class = "month" >June</div>
-              <div class = "year" >2020</div>
-            </header>
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="../../static/calregister/calendar.css">
 
-              <table class = "table"> 
+</head>
 
-                <thead>
-                 <tr>
-                    
-                    <td>SUN</td>
-                    <td>MON</td>
-                    <td>TUE</td>
-                    <td>WED</td>
-                    <td>THU</td>
-                    <td>FRI</td>
-                    <td>SAT</td>        
+<body>
 
-                 </tr>
-                </thead>
-
-                <tbody>
-                    <tr>
-                        <td id="pre">31</td>
-                        <td>1</td>
-                        <td>2</td>
-                        <td id="today">3</td>
-                        <td>4</td>
-                        <td>5</td>
-                        <td>6</td>
-                    </tr>
-
-                    <tr>
-                        <td>7</td>
-                        <td>8</td>
-                        <td>9</td>
-                        <td>10</td>
-                        <td>11</td>
-                        <td>12</td>
-                        <td>13</td>
-                    </tr>
-
-                    <tr>
-                        <td>14</td>
-                        <td>15</td>
-                        <td>16</td>
-                        <td>17</td>
-                        <td>18</td>
-                        <td>19</td>
-                        <td>20</td>
-                    </tr>
-
-                    <tr>
-                        <td>21</td>
-                        <td>22</td>
-                        <td>23</td>
-                        <td>24</td>
-                        <td>25</td>
-                        <td>26</td>
-                        <td>27</td>
-                    </tr>
-
-                    <tr>
-                        <td>28</td>
-                        <td>29</td>
-                        <td>30</td>
-                        <td id="pre">1</td>
-                        <td id="pre">2</td>
-                        <td id="pre">3</td>
-                        <td id="pre">4</td>
-                    </tr>
-                </tbody>
-              </table>
+  <div class="container">
+    <div class="row">
+      <!-- <div class="col flex leftRightMargin col-sm-1">Left Text</div> -->
+      <div class="col">
+        <div class="card border-0">
+          <div class="row">
+            <div class="col monthText centerText">
+              <!-- Enter Month Below  -->
+              March
+            </div>
           </div>
+
+          <div class="row daysAlign" id="days">
+            <div class="col">
+              Sun
+            </div>
+            <div class="col">
+              Mon
+            </div>
+            <div class="col">
+              Tue
+            </div>
+            <div class="col">
+              Wed
+            </div>
+            <div class="col">
+              Thr
+            </div>
+            <div class="col">
+              Fri
+            </div>
+            <div class="col">
+              Sat
+            </div>
+
+          </div>
+
+          <div class="row row1 datesAlign" id="dates">
+            <div class="col">
+              1.
+            </div>
+            <div class="col">
+              2.
+            </div>
+            <div class="col">
+              3.
+            </div>
+            <div class="col">
+              4.
+            </div>
+            <div class="col">
+              5.
+            </div>
+            <div class="col">
+              6. <div class="card"> <strike> Club Meeting </strike></div>
+            </div>
+            <div class="col">
+              7.
+            </div>
+          </div>
+          <div class="row row2 datesAlign" id="dates">
+            <div class="col">
+              8.
+            </div>
+            <div class="col">
+              9.
+            </div>
+            <div class="col">
+              10.
+            </div>
+            <div class="col">
+              11.
+            </div>
+            <div class="col">
+              12.
+            </div>
+            <div class="col">
+              13. <div class="card"> <strike> Club Meeting </strike></div>
+            </div>
+            <div class="col">
+              14.
+            </div>
+          </div>
+          <div class="row row3 datesAlign" id="dates">
+            <div class="col">
+              15.
+            </div>
+            <div class="col">
+              16.
+            </div>
+            <div class="col">
+              17.
+            </div>
+            <div class="col">
+              18.
+            </div>
+            <div class="col">
+              19.
+            </div>
+            <div class="col">
+              20. <div class="card"> <strike> Club Meeting </strike></div>
+            </div>
+            <div class="col">
+              21.
+            </div>
+          </div>
+          <div class="row row4 datesAlign" id="dates">
+            <div class="col">
+              22.
+            </div>
+            <div class="col">
+              23.
+            </div>
+            <div class="col">
+              24.
+            </div>
+            <div class="col">
+              25.
+            </div>
+            <div class="col">
+              26.
+            </div>
+            <div class="col">
+              27. <div class="card"> <strike> Club Meeting </strike></div>
+            </div>
+            <div class="col">
+              28.
+            </div>
+          </div>
+          <div class="row row5 datesAlign" id="dates">
+            <div class="col">
+              29.
+            </div>
+            <div class="col">
+              30.
+            </div>
+            <div class="col">
+              31.
+            </div>
+            <div class="col">
+              <!--Empty Space -->
+            </div>
+            <div class="col">
+              <!--Empty Space -->
+            </div>
+            <div class="col">
+              <!--Empty Space -->
+            </div>
+            <div class="col">
+              <!--Empty Space -->
+            </div>
+          </div>
+
+        </div>
+
       </div>
-{% endblock content %}
+      <!-- <div class="col flex col-sm-1 leftRightMargin">Right Text</div>-->
+    </div>
+  </div>
+
+</body>
+
+<html>

@@ -1,0 +1,41 @@
+.col-bg {
+    background-color: #b5d3e7;
+  }
+  .enclose {
+    border-style: solid;
+    border-color: #999966;
+    border-width: 1px;
+  }
+  
+  #days {
+    color: black;
+  }
+  
+  .datesAlign {
+    text-align: left;
+    padding-bottom: 4rem;
+    border-style: solid;
+    border-color: #999966;
+    border-width: 1px;
+  }
+  .daysAlign {
+    text-align: center;
+  }
+  
+  .boxSplit {
+    border-style: solid;
+    border-width: 1px;
+  }
+  
+  .centerText {
+    text-align: center;
+  }
+  .monthText {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  .leftRightMargin {
+    background: green;
+  }
+  
